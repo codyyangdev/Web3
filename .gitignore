@@ -1,0 +1,17 @@
+# 忽略 node_modules 文件夹（如果你使用 npm 或 yarn）
+node_modules/
+
+# 忽略 Remix 临时文件夹
+.remix/
+
+# 忽略 VSCode 的工作区设置
+.vscode/
+
+# 忽略日志文件
+*.log
+
+# 忽略操作系统生成的文件（例如 macOS 的 .DS_Store）
+.DS_Store
+
+# 忽略 Remix 生成的其它可能的临时文件
+*.swp
