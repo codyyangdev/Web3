@@ -1,0 +1,75 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "enumTest",
+				"outputs": [
+					{
+						"internalType": "enum BasicType.OrderState",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testInt",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"custom:dev-run-script": "./scripts/deploy_with_ethers.ts",
+			"details": "Store & retrieve value in a variable",
+			"kind": "dev",
+			"methods": {},
+			"title": "Storage",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/BasicType.sol": "BasicType"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/BasicType.sol": {
+			"keccak256": "0xc1370cde7a9f74d7c7c592f39ad4aac11809ab0e2a5ea42435dd570ebd9900c7",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://42f74f168eb876a322f6391cabb44e76972508673911008a17d32647af7ab6af",
+				"dweb:/ipfs/Qmbag6otEDsqGsYjD2TwTNCFPZ4FTm3HjVengDm5CgGfoa"
+			]
+		}
+	},
+	"version": 1
+}

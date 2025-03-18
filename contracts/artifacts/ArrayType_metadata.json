@@ -1,0 +1,119 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "testDynamicStorageArray",
+				"outputs": [
+					{
+						"internalType": "uint8[]",
+						"name": "",
+						"type": "uint8[]"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "size",
+						"type": "uint8"
+					}
+				],
+				"name": "testMemoryDynamicArray",
+				"outputs": [
+					{
+						"internalType": "uint8[]",
+						"name": "",
+						"type": "uint8[]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testStaticArray",
+				"outputs": [
+					{
+						"internalType": "uint8[3]",
+						"name": "",
+						"type": "uint8[3]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testStorageDynamicArray",
+				"outputs": [
+					{
+						"internalType": "uint8[]",
+						"name": "",
+						"type": "uint8[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testWriteDynamicStorageArray",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"custom:dev-run-script": "./scripts/deploy_with_ethers.ts",
+			"details": "Store & retrieve value in a variable",
+			"kind": "dev",
+			"methods": {},
+			"title": "Storage",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ArrayType.sol": "ArrayType"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ArrayType.sol": {
+			"keccak256": "0xe39ddeb31c92a788fad2c1cef2be019484f31ad131616c09e65e2e303586d3cc",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://df7a2f3c555fb794f3fe0cdc70fbeb837291b917460fa591b113fea5b2c2388f",
+				"dweb:/ipfs/QmWmaz2qkfw31SFXibprXKj52haW3MJ77P5coWmdv9vMiN"
+			]
+		}
+	},
+	"version": 1
+}
