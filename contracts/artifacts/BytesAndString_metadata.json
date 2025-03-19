@@ -1,0 +1,62 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "testStringAndBytes",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"custom:dev-run-script": "./scripts/deploy_with_ethers.ts",
+			"details": "Store & retrieve value in a variable",
+			"kind": "dev",
+			"methods": {},
+			"title": "Storage",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/BytesAndString.sol": "BytesAndString"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/BytesAndString.sol": {
+			"keccak256": "0xc50ee18c1c04181357bbe88001ef0d368a4233931c3607dae4dee31588e08909",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://ae6698feb3ce57855acda07eeaf99dc368e0b253c0fdcdb527a483de22059708",
+				"dweb:/ipfs/QmYMw95G9qEHh8Pr6TAsaHtHGBXsqgLWH8b23DitMK8Kez"
+			]
+		}
+	},
+	"version": 1
+}

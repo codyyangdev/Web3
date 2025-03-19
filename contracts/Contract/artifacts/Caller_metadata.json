@@ -1,0 +1,94 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_calleeAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "calleeAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_num",
+						"type": "uint256"
+					}
+				],
+				"name": "setCalleeX",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"custom:dev-run-script": "./scripts/deploy_with_ethers.ts",
+			"details": "Store & retrieve value in a variable",
+			"kind": "dev",
+			"methods": {},
+			"title": "Storage",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Contract/Caller.sol": "Caller"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Contract/Callee.sol": {
+			"keccak256": "0x60fae6b5ed989955b86072de4ead2813d4953d0a32406195c6cf533f26848d36",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://e4e05bcd2b173e0fc30d991f85600a0d28c87401b9f6969249b67b1c9262a957",
+				"dweb:/ipfs/QmdjcJcGQwXDDsSTNSYNP4ev3ZcDu4CzhoQJzE6He5gycG"
+			]
+		},
+		"contracts/Contract/Caller.sol": {
+			"keccak256": "0xb112234cb7ce0c0709240c46726073e96901e0964482c96216743766d1f9a691",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://4483c753194e7ab8f4e7d50b32a6fa1ef36114adeab3863ae9f9d4809a966b83",
+				"dweb:/ipfs/QmdVAMY1DDrDhw7HsRnEcK4HAGGNVjMEA99CVyjFeyQo3q"
+			]
+		}
+	},
+	"version": 1
+}
