@@ -7,6 +7,32 @@
 		"abi": [
 			{
 				"inputs": [],
+				"name": "caller",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "eoaaddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "num",
 				"outputs": [
 					{
@@ -33,8 +59,11 @@
 			}
 		],
 		"devdoc": {
+			"custom:dev-run-script": "./scripts/deploy_with_ethers.ts",
+			"details": "Store & retrieve value in a variable",
 			"kind": "dev",
 			"methods": {},
+			"title": "Storage",
 			"version": 1
 		},
 		"userdoc": {
@@ -45,7 +74,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/FunctionCallSameFile.sol": "Callee"
+			"contracts/MsgEoaInfoOfCall.sol": "Callee"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -59,12 +88,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/FunctionCallSameFile.sol": {
-			"keccak256": "0xa8c60e878cc054ac0e193c3e8a28dec6722a567fcb8f6c14c418d6b8695a0cc3",
+		"contracts/MsgEoaInfoOfCall.sol": {
+			"keccak256": "0x4e486885995a35ae85ec5e993369eab9a0be263d21cfe7e495f875fbdc6754b7",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://99b8caeed1f8203c2a69da0dc73c753e254d716330b6f44f4a30500840ed6f5f",
-				"dweb:/ipfs/QmUtvjY6hBxoQRAsPVehiuomBFMo8CmtiSctRiFmnGuMSW"
+				"bzz-raw://7053b06072179dec2b51bbf323332f53b9ce24ce26ee9c10dcf7418f58cbe058",
+				"dweb:/ipfs/QmexKKjf21MvpACfxrampt3k3kLjmrQB3h8KEyo2Pg7XgV"
 			]
 		}
 	},
