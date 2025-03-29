@@ -41,11 +41,11 @@
 	},
 	"sources": {
 		"contracts/DelegateCall/basic-proxy.sol": {
-			"keccak256": "0x5a4a9a1848ff99de1cd6de09150d722d2da337a674cd6f2c336c6ed7245c9b88",
+			"keccak256": "0xa471226e464bb8424e02a1818028a3afcfb6e322add91a0e35f1e9ef8f398709",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://03b9992297aa0e9fd73df12e14faf76ce90f1eb1d52d881993712541cc5802a0",
-				"dweb:/ipfs/QmVLQKViov519GN1RferpghhUHvsk1d4uhB8JuZbbmwE6n"
+				"bzz-raw://dc1150adaced161808ba77d530bf7f81f1d3290d7b5c4f49e7a3891a5935775d",
+				"dweb:/ipfs/QmP8tiVVv4tMezkxyjfGz1GjjaP49MgN7h1nzVJtcCQeJk"
 			]
 		}
 	},

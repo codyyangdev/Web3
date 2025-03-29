@@ -9,6 +9,22 @@ contract Logic{
     function inc() external {
         count += 1;
     }
+    //还有一种升级比较小，修改方法内容
+
+    //这种升级比较大
+    function dec() external {
+        count -= 1;
+    }
+}
+
+contract LogicV2{
+    address public placehoder;
+    uint public count;
+
+    function inc() external {
+        count += 2;
+    }
+    //还有一种升级比较小，修改方法内容
 }
 
 interface logicInterface {
@@ -28,4 +44,10 @@ contract Proxy{
         (bool ok, bytes memory res) = logic.delegatecall(msg.data);
         require(ok,"delegate failed");
     }
+
+    //升级函数
+    function upgradeTo(address newVersion)external {
+        logic = newVersion;
+    }
 }
+

@@ -6,32 +6,8 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_logic",
-						"type": "address"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
 				"stateMutability": "nonpayable",
 				"type": "fallback"
-			},
-			{
-				"inputs": [],
-				"name": "count",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
 			},
 			{
 				"inputs": [],
@@ -39,7 +15,7 @@
 				"outputs": [
 					{
 						"internalType": "address",
-						"name": "",
+						"name": "impl",
 						"type": "address"
 					}
 				],
@@ -50,7 +26,7 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "newVersion",
+						"name": "newLogic",
 						"type": "address"
 					}
 				],
@@ -73,7 +49,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/DelegateCall/basic-proxy.sol": "Proxy"
+			"contracts/DelegateCall/unstrcturedProxy.sol": "UnstructuredProxy"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -87,12 +63,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/DelegateCall/basic-proxy.sol": {
-			"keccak256": "0xa471226e464bb8424e02a1818028a3afcfb6e322add91a0e35f1e9ef8f398709",
-			"license": "GPL-3.0",
+		"contracts/DelegateCall/unstrcturedProxy.sol": {
+			"keccak256": "0xb9224c8919d7f896431444988e6196e3da43872abab55e27344be60c569217bf",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://dc1150adaced161808ba77d530bf7f81f1d3290d7b5c4f49e7a3891a5935775d",
-				"dweb:/ipfs/QmP8tiVVv4tMezkxyjfGz1GjjaP49MgN7h1nzVJtcCQeJk"
+				"bzz-raw://c24dd43c7f7bd4c8dad8dacd0968fee8c33c5032f5a6922a9a14007ab09aaac0",
+				"dweb:/ipfs/QmfGXmVLtVS8S2kCfCusaLH1sxZqtFG3PG2F1kMdsnAguh"
 			]
 		}
 	},

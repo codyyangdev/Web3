@@ -24,19 +24,6 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "placehoder",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -52,7 +39,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/DelegateCall/basic-proxy.sol": "Logic"
+			"contracts/DelegateCall/unstrcturedProxy.sol": "Logic"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -66,12 +53,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/DelegateCall/basic-proxy.sol": {
-			"keccak256": "0x5a4a9a1848ff99de1cd6de09150d722d2da337a674cd6f2c336c6ed7245c9b88",
-			"license": "GPL-3.0",
+		"contracts/DelegateCall/unstrcturedProxy.sol": {
+			"keccak256": "0xb9224c8919d7f896431444988e6196e3da43872abab55e27344be60c569217bf",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://03b9992297aa0e9fd73df12e14faf76ce90f1eb1d52d881993712541cc5802a0",
-				"dweb:/ipfs/QmVLQKViov519GN1RferpghhUHvsk1d4uhB8JuZbbmwE6n"
+				"bzz-raw://c24dd43c7f7bd4c8dad8dacd0968fee8c33c5032f5a6922a9a14007ab09aaac0",
+				"dweb:/ipfs/QmfGXmVLtVS8S2kCfCusaLH1sxZqtFG3PG2F1kMdsnAguh"
 			]
 		}
 	},
